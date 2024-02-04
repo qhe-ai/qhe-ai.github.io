@@ -12,7 +12,9 @@ author    = {Qiang He and Tianyi Zhou and Meng Fang and Setareh Maghsudi},
   selected={true},
   abstract={Representation rank is an important concept for understanding the role of Neural Networks (NNs) in Deep Reinforcement learning (DRL), which measures the expressive capacity of value networks. Existing studies focus on unboundedly maximizing this rank; nevertheless, that approach would introduce overly complex models in the learning, thus undermining performance. Hence, fine-tuning representation rank presents a challenging and crucial optimization problem. To address this issue, we find a guiding principle for adaptive control of the representation rank. We employ the Bellman equation as a theoretical foundation and derive an upper bound on the cosine similarity of consecutive state-action pairs representations of value networks. We then leverage this upper bound to propose a novel regularizer, namely BEllman Equation-based automatic rank Regularizer (BEER). This regularizer adaptively regularizes the representation rank, thus improving the DRL agent's performance. We first validate the effectiveness of automatic control of rank on illustrative experiments. Then, we scale up BEER to complex continuous control tasks by combining it with the deterministic policy gradient method. Among 12 challenging DeepMind control tasks, BEER outperforms the baselines by a large margin. Besides, BEER demonstrates significant advantages in Q-value approximation. Our anonymous code is available at https://anonymous.4open.science/r/BEER-3C4B.},
   pdf={https://openreview.net/forum?id=apXtolxDaJ},
-  code={https://github.com/sweetice/BEER-ICLR2024}
+  code={https://github.com/sweetice/BEER-ICLR2024},
+  bibtex_show={true},
+  preview={ICLR24_beer.png}
 
 }
 
@@ -25,7 +27,9 @@ author    = {Yucheng Yang and Tianyi Zhou and Qiang He and Lei Han and Mykola Pe
   selected={true},
   abstract={Unsupervised reinforcement learning (URL) aims to learn general skills for unseen downstream tasks. Mutual Information Skill Learning (MISL) addresses URL by maximizing the mutual information between states and skills but lacks sufficient theoretical analysis, e.g., how well its learned skills can initialize a downstream task's policy. Our new theoretical analysis shows that the diversity and separatability of learned skills are fundamentally critical to downstream task adaptation but MISL does not necessarily guarantee them. To improve MISL, we propose a novel disentanglement metric LSEPIN and build an information-geometric connection between LSEPIN and downstream task adaptation cost. For better geometric properties, we investigate a new strategy that replaces the KL divergence in information geometry with Wasserstein distance. We extend the geometric analysis to it, which leads to a novel skill-learning objective WSEP. It is theoretically justified to be helpful to task adaptation and it is capable of discovering more initial policies for downstream tasks than MISL. We further propose a Wasserstein distance-based algorithm PWSEP can theoretically discover all potentially optimal initial policies.},
   pdf={https://openreview.net/pdf?id=zSxpnKh1yS},
-  highlight={Spotlight}
+  highlight={Spotlight},
+  bibtex_show={true},
+  preview={ICLR24_url.png}
 }
 
 @article{NIPS23,
@@ -36,7 +40,9 @@ author    = {Chao Li and Chen Gong and Qiang He and Xinwen Hou},
   year      = {2023},
   selected={true},
   abstract={The combination of deep reinforcement learning (DRL) with ensemble methods has been proved to be highly effective in addressing complex sequential decision-making problems. This success can be primarily attributed to the utilization of multiple models, which enhances both the robustness of the policy and the accuracy of value function estimation. However, there has been limited analysis of the empirical success of current ensemble RL methods thus far. Our new analysis reveals that the sample efficiency of previous ensemble DRL algorithms may be limited by sub-policies that are not as diverse as they could be. Motivated by these findings, our study introduces a new ensemble RL algorithm, termed \textbf{T}rajectories-awar\textbf{E} \textbf{E}nsemble exploratio\textbf{N} (TEEN). The primary goal of TEEN is to maximize the expected return while promoting more diverse trajectories. Through extensive experiments, we demonstrate that TEEN not only enhances the sample diversity of the ensemble policy compared to using sub-policies alone but also improves the performance over ensemble RL algorithms. On average, TEEN outperforms the baseline ensemble DRL algorithms by 41% in performance on the tested representative environments.},
-  pdf={https://openreview.net/pdf?id=A6JDQDv7Nt}
+  pdf={https://openreview.net/pdf?id=A6JDQDv7Nt},
+  bibtex_show={true},
+  preview={NIPS23_TEEN.png}
 }
 
 @article{ecml23,
@@ -56,7 +62,8 @@ author    = {Qiang He and
   selected={true},
   abstract={We propose a novel value approximation method, namely Eigensubspace Regularized Critic (ERC) for deep reinforcement learning (RL). ERC is motivated by an analysis of the dynamics of Q-value approximation error in the Temporal-Difference (TD) method, which follows a path defined by the 1-eigensubspace of the transition kernel associated with the Markov Decision Process (MDP). It reveals a fundamental property of TD learning that has remained unused in previous deep RL approaches. In ERC, we propose a regularizer that guides the approximation error tending towards the 1-eigensubspace, resulting in a more efficient and stable path of value approximation. Moreover, we theoretically prove the convergence of the ERC method. Besides, theoretical analysis and experiments demonstrate that ERC effectively reduces the variance of value functions. Among 26 tasks in the DMControl benchmark, ERC outperforms state-of-the-art methods for 20. Besides, it shows significant advantages in Q-value approximation and variance reduction. Our code is available at this https URL.},
   pdf={https://arxiv.org/abs/2306.16750},
-  code={https://github.com/sweetice/ERC-ECML-23}
+  code={https://github.com/sweetice/ERC-ECML-23},
+  bibtex_show={true}
 }
 
 
@@ -78,7 +85,8 @@ author    = {Qiang He and
   selected={true},
   abstract={Deep reinforcement learning (DRL) gives the promise that an agent learns good policy from high-dimensional information, whereas representation learning removes irrelevant and redundant information and retains pertinent information. In this work, we demonstrate that the learned representation of the Q-network and its target Q-network should, in theory, satisfy a favorable distinguishable representation property. Specifically, there exists an upper bound on the representation similarity of the value functions of two adjacent time steps in a typical DRL setting. However, through illustrative experiments, we show that the learned DRL agent may violate this property and lead to a sub-optimal policy. Therefore, we propose a simple yet effective regularizer called Policy Evaluation with Easy Regularization on Representation (PEER), which aims to maintain the distinguishable representation property via explicit regularization on internal representations. And we provide the convergence rate guarantee of PEER. Implementing PEER requires only one line of code. Our experiments demonstrate that incorporating PEER into DRL can significantly improve performance and sample efficiency. Comprehensive experiments show that PEER achieves state-of-the-art performance on all 4 environments on PyBullet, 9 out of 12 tasks on DMControl, and 19 out of 26 games on Atari. To the best of our knowledge, PEER is the first work to study the inherent representation property of Q-network and its target. Our code is available at this https URL.},
   pdf={https://openaccess.thecvf.com/content/CVPR2023/papers/He_Frustratingly_Easy_Regularization_on_Representation_Can_Boost_Deep_Reinforcement_Learning_CVPR_2023_paper.pdf},
-  code={https://github.com/sweetice/PEER-CVPR23}
+  code={https://github.com/sweetice/PEER-CVPR23},
+  bibtex_show={true}
   }
 
 @inproceedings{ccep,
@@ -94,7 +102,8 @@ abbr = {AAMAS’23},
   selected={false},
   abstract={The deep reinforcement learning (DRL) algorithm works brilliantly on solving various complex control tasks. This phenomenal success can be partly attributed to DRL encouraging intelligent agents to sufficiently explore the environment and collect diverse experiences during the agent training process. Therefore, exploration plays a significant role in accessing an optimal policy for DRL. Despite recent works making great progress in continuous control tasks, exploration in these tasks has remained insufficiently investigated. To explicitly encourage exploration in continuous control tasks, we propose CCEP (Centralized Cooperative Exploration Policy), which utilizes underestimation and overestimation of value functions to maintain the capacity of exploration. CCEP first keeps two value functions initialized with different parameters, and generates diverse policies with multiple exploration styles from a pair of value functions. In addition, a centralized policy framework ensures that CCEP achieves message delivery between multiple policies, furthermore contributing to exploring the environment cooperatively. Extensive experimental results demonstrate that CCEP achieves higher exploration capacity. Empirical analysis shows diverse exploration styles in the learned policies by CCEP, reaping benefits in more exploration regions. And this exploration capacity of CCEP ensures it outperforms the current state-of-the-art methods across multiple continuous control tasks shown in experiments.},
   pdf={https://arxiv.org/abs/2301.02375},
-  code={https://github.com/Jincate/CCEP}
+  code={https://github.com/Jincate/CCEP},
+  bibtex_show={true}
   
 }
 
@@ -120,7 +129,8 @@ author    = {Chen Gong* and
   bibsource = {dblp computer science bibliography, https://dblp.org},
   abstract={Deep Reinforcement Learning (DRL) has an increasing application in video games. However, it usually suffers from unstable training, low sampling efficiency, etc. Under the assumption that Bellman residual follows a stationary random process when the training process is convergent, we propose the Wide-sense Stationary Policy Optimization (WSPO) framework, which leverages the Wasserstein distance from the Bellman Residual Distribution (BRD) between two adjacent time steps, to stabilize the training stage and improve the sampling efficiency. We minimize the Wasserstein distance with Quantile Regression, where the specific form of BRD is not needed. Finally, we combine WSPO with Advantage Actor-Critic (A2C) algorithm and Deep Deterministic Policy Gradient (DDPG) algorithm. We evaluate WSPO on Atari 2600 video games and continuous control tasks, illustrating that WSPO compares or outperforms the state-of-the-art algorithms we tested.},
   pdf={https://ieeexplore.ieee.org/abstract/document/9428293},
-  code={https://github.com/2019ChenGong/SVA2C}
+  code={https://github.com/2019ChenGong/SVA2C},
+  bibtex_show={true}
 }
 
 
@@ -143,7 +153,8 @@ abbr = {ICASSP‘22},
   biburl    = {https://dblp.org/rec/conf/icassp/HeHL22.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org},
   abstract={Offline reinforcement learning (RL) aims to optimize policy from large pre-recorded datasets without interaction with the environment. This setting offers the promise of utilizing diverse and static datasets to obtain policies without costly, risky, active exploration. However, commonly used off-policy deep RL methods perform poorly when facing arbitrary off-policy datasets. In this work, we show that there exists an estimation gap of value-based deep RL algorithms in the offline setting. To eliminate the estimation gap, we propose a novel offline RL algorithm that we term Pessimistic Offline Policy Optimization (POPO), which learns a pessimistic value function. To demonstrate the effectiveness of POPO, we perform experiments on various quality datasets. And we find that POPO performs surprisingly well and scales to tasks with high-dimensional state and action space, comparing or outperforming tested state-of-the-art offline RL algorithms on benchmark tasks.},
-  pdf={https://ieeexplore.ieee.org/abstract/document/9747886}
+  pdf={https://ieeexplore.ieee.org/abstract/document/9747886},
+  bibtex_show={true}
 }
 
 
@@ -166,5 +177,6 @@ abbr = {ICTAI’20},
   selected={false},
   abstract={The overestimation phenomenon caused by function approximation is a well-known issue in value-based reinforcement learning algorithms such as deep Q-networks and DDPG, which could lead to suboptimal policies. To address this issue, TD3 takes the minimum value between a pair of critics. In this paper, we show that the TD3 algorithm introduces underestimation bias in mild assumptions. To obtain a more precise estimation for value function, we unify these two opposites and propose a novel algorithm \underline{W}eighted \underline{D}elayed \underline{D}eep \underline{D}eterministic Policy Gradient (WD3), which can eliminate the estimation bias and further improve the performance by weighting a pair of critics. To demonstrate the effectiveness of WD3, we compare the learning process of value function between DDPG, TD3, and WD3. The results verify that our algorithm does eliminate the estimation error of value functions. Furthermore, we evaluate our algorithm on the continuous control tasks. We observe that in each test task, the performance of WD3 consistently outperforms, or at the very least matches, that of the state-of-the-art algorithms. Our code is available at https://sites.google.com/view/ictai20-wd3/.},
   pdf={https://arxiv.org/abs/2006.12622},
-  code={https://sites.google.com/view/ictai20-wd3/}
+  code={https://sites.google.com/view/ictai20-wd3/},
+  bibtex_show={true}
 }

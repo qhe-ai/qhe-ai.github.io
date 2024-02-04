@@ -29,7 +29,7 @@ I am actively looking for research collaborations! For master/undergrad students
 <br>
 
 I'm broadly interested in reinforcement learning, large language models, and machine learning. Currently, my research aims to i) understand the structural information of deep RL & LLMs and how to leverage it to improve agent performance in the wild (e.g., dealing with biased, noisy, or redundant data, or extrapolating to unseen tasks/environments), ii) develop controllable AI in both training and inference/adaptation; and iii) theory and real-world application of Human-AI alignment. And Yes we are developing these methods for RL and LLMs.  
-
+<br>
 Our research is built upon empirical and theoretical analysis of the learning dynamics, utilizing tools from stochastic processes, functional analysis, algebra, optimization, information theory, and large language models. Our goal is to develop efficient, stable, trustworthy agents based on coevolution between humans and agents. 
 
 </details>
@@ -40,7 +40,7 @@ Our research is built upon empirical and theoretical analysis of the learning dy
 
 
 Email: qianghe97 AT gmail DOT com, Qiang DOT He AT ruhr-uni-bochum DOT de. Since I have left Tuebingen, my Tuebingen e-mail is not available. Please contact me via Gmail or Bochum mail. 
-
+<br>
 WeChat: pposac 
 
 </details>
@@ -53,10 +53,14 @@ WeChat: pposac
 
 <details>
 <summary>Professional Service</summary>
+<br>
 
 Reviewer for 
 - NeurIPS
 - [DMLR](https://data.mlr.press/)
 - [ICPR](https://icpr2024.org/index.html)
-
+<br>
 </details>
+
+
+<br>
