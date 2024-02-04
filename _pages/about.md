@@ -55,10 +55,8 @@ WeChat: pposac
 <summary>Professional Service</summary>
 <br>
 
-Reviewer for 
-- NeurIPS
-- [DMLR](https://data.mlr.press/)
-- [ICPR](https://icpr2024.org/index.html)
+Reviewer for NeurIPS, DMLR, ICPR
+
 <br>
 </details>
 
