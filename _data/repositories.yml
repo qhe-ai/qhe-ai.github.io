@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - sweetice
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - sweetice/Deep-reinforcement-learning-with-pytorch
+  - sweetice/ERC-ECML-23
+  - sweetice/BEER-ICLR2024
+  - sweetice/PEER-CVPR23

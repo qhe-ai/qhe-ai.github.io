@@ -191,6 +191,14 @@ blockquote {
   }
 }
 
+.badge {
+  padding: 5px 10px;
+  background-color: purple;
+  background-color: var(--global-theme-color) !important;
+  color: white;
+  border-radius: 5px;
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }
