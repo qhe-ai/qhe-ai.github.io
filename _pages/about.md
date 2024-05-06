@@ -30,15 +30,14 @@ I am actively looking for research collaborations! For master/undergrad students
 <summary>Research Interests: Reinforcement Learning, Human-AI Alignment, Large Language Models</summary>
 <br>
 
-I'm broadly interested in reinforcement learning, large language models, and machine learning. Currently, my research aims to i) understand the structural information of deep RL & LLMs and how to leverage it to improve agent performance in the wild (e.g., dealing with biased, noisy, or redundant data, or extrapolating to unseen tasks/environments), ii) develop controllable AI in both training and inference/adaptation; and iii) theory and real-world application of Human-AI alignment. And Yes we are developing these methods for RL and LLMs.   <br>
-<br>
+I'm broadly interested in reinforcement learning, large language models, and machine learning. Currently, my research aims to i) understand the structural information of deep RL & LLMs and how to leverage it to improve agent performance in the wild (e.g., dealing with biased, noisy, or redundant data, or extrapolating to unseen tasks/environments), ii) develop controllable AI in both training and inference/adaptation; and iii) theory and real-world application of Human-AI alignment. And Yes we are developing these methods for RL and LLMs.<br><br>
 
 
-<br>My working title of PhD thesis is "Towards Trustworthy Reinforcement Learning: Structural Analysis, Control Mechanisms, and Human-AI Alignment".
+<br><br>My working title of PhD thesis is "Towards Trustworthy Reinforcement Learning: Structural Analysis, Control Mechanisms, and Human-AI Alignment".
 
 
-<br>
-Our research is built upon empirical and theoretical analysis of the learning dynamics, utilizing tools from stochastic processes, functional analysis, algebra, optimization, information theory, and large language models. Our goal is to develop efficient, stable, trustworthy agents based on coevolution between humans and agents. 
+
+<br><br>Our research is built upon empirical and theoretical analysis of the learning dynamics, utilizing tools from stochastic processes, functional analysis, algebra, optimization, information theory, and large language models. Our goal is to develop efficient, stable, trustworthy agents based on coevolution between humans and agents. 
 
 </details>
 
