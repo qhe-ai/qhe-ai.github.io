@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sweetice.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://sweetice.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-05-23T21:39:16+00:00</updated><id>https://sweetice.github.io/feed.xml</id><title type="html">Qiang HE</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">A quick reference manual for pandas and seaborn</title><link href="https://sweetice.github.io/blog/2022/pandas_seaborn/" rel="alternate" type="text/html" title="A quick reference manual for pandas and seaborn"/><published>2022-07-20T08:00:00+00:00</published><updated>2022-07-20T08:00:00+00:00</updated><id>https://sweetice.github.io/blog/2022/pandas_seaborn</id><content type="html" xml:base="https://sweetice.github.io/blog/2022/pandas_seaborn/"><![CDATA[<h1 id="seaborn-pandas-速查手册">Seaborn Pandas 速查手册</h1> <p>这篇笔记是作为速查来使用的，读者无需仔细阅读，了解原理</p> <h2 id="获取表头">获取表头</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data.columns
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://sweetice.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://sweetice.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-05-23T21:42:03+00:00</updated><id>https://sweetice.github.io/feed.xml</id><title type="html">Qiang HE</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">A quick reference manual for pandas and seaborn</title><link href="https://sweetice.github.io/blog/2022/pandas_seaborn/" rel="alternate" type="text/html" title="A quick reference manual for pandas and seaborn"/><published>2022-07-20T08:00:00+00:00</published><updated>2022-07-20T08:00:00+00:00</updated><id>https://sweetice.github.io/blog/2022/pandas_seaborn</id><content type="html" xml:base="https://sweetice.github.io/blog/2022/pandas_seaborn/"><![CDATA[<h1 id="seaborn-pandas-速查手册">Seaborn Pandas 速查手册</h1> <p>这篇笔记是作为速查来使用的，读者无需仔细阅读，了解原理</p> <h2 id="获取表头">获取表头</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data.columns
 
 Index(['beta', 'alien', 'bank_heist', 'freeway', 'frostbite', 'jamesbond',
        'kangaroo', 'ms_pacman'],
@@ -379,55 +379,4 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 |    0      2509      C   /home/mirror/anaconda3/bin/python            533MiB |
 |    0      2562      G   ...quest-channel-token=9028700102029312797    64MiB |
 +-----------------------------------------------------------------------------+
-</code></pre></div></div>]]></content><author><name></name></author><category term="blog"/><category term="Programming"/><summary type="html"><![CDATA[#　NVIDIA-SMI has failed because it couldn’t communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running]]></summary></entry><entry><title type="html">Computing the gradients of gradients with PyTorch</title><link href="https://sweetice.github.io/blog/2019/Compute_the_gradients_of_gradients_with_pytorch/" rel="alternate" type="text/html" title="Computing the gradients of gradients with PyTorch"/><published>2019-01-26T08:00:00+00:00</published><updated>2019-01-26T08:00:00+00:00</updated><id>https://sweetice.github.io/blog/2019/Compute_the_gradients_of_gradients_with_pytorch</id><content type="html" xml:base="https://sweetice.github.io/blog/2019/Compute_the_gradients_of_gradients_with_pytorch/"><![CDATA[<h2 id="computing-the-gradients-of-gradients-with-pytorch">Computing the gradients of gradients with pytorch</h2> <p>Rencently, I am working with GAN and RL.For the puspose of smoothing the learning process, I need compute the gradients of gradients(the second order of gradients).</p> <p>If you are fimilar with WGAN, you must know the lipschitz constrain. Implementation with GAN-gp, you need compute the gradients of D as constrain.</p> <p>That is easy for you if you work with Tensorflow (I hate this tool!).</p> <p>Pytorch is a useful tool, I love it.</p> <p>We can use torch.autograd.grad to implement the code.</p> <p>You can click <a href="https://pytorch.org/docs/0.4.1/autograd.html#">here</a> to read the docs.</p> <p>Let’s read the core code.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>torch.autograd.grad(outputs, inputs, grad_outputs=None, retain_graph=None, create_graph=False, only_inputs=True, allow_unused=False)[source]
-Computes and returns the sum of gradients of outputs w.r.t. the inputs.
-
-grad_outputs should be a sequence of length matching output containing the pre-computed gradients w.r.t. each of the outputs. If an output doesn’t require_grad, then the gradient can be None).
-
-If only_inputs is True, the function will only return a list of gradients w.r.t the specified inputs. If it’s False, then gradient w.r.t. all remaining leaves will still be computed, and will be accumulated into their .grad attribute.
-
-Parameters:	
-outputs (sequence of Tensor) – outputs of the differentiated function.
-inputs (sequence of Tensor) – Inputs w.r.t. which the gradient will be returned (and not accumulated into .grad).
-grad_outputs (sequence of Tensor) – Gradients w.r.t. each output. None values can be specified for scalar Tensors or ones that don’t require grad. If a None value would be acceptable for all grad_tensors, then this argument is optional. Default: None.
-retain_graph (bool, optional) – If False, the graph used to compute the grad will be freed. Note that in nearly all cases setting this option to True is not needed and often can be worked around in a much more efficient way. Defaults to the value of create_graph.
-create_graph (bool, optional) – If True, graph of the derivative will be constructed, allowing to compute higher order derivative products. Default: False.
-allow_unused (bool, optional) – If False, specifying inputs that were not used when computing outputs (and therefore their grad is always zero) is an error. Defaults to False.
-</code></pre></div></div> <p>That’s ok. Here I give you guys two example.</p> <h2 id="example-1-gan-gp-">Example 1: GAN-gp :</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def compute_gradient_penalty(D, real_samples, fake_samples):
-    """Calculates the gradient penalty loss for WGAN GP"""
-    # Random weight term for interpolation between real and fake samples
-    alpha = Tensor(np.random.random((real_samples.size(0), 1, 1, 1)))
-    # Get random interpolation between real and fake samples
-    interpolates = (alpha * real_samples + ((1 - alpha) * fake_samples)).requires_grad_(True)
-    d_interpolates = D(interpolates)
-    fake = Variable(Tensor(real_samples.shape[0], 1).fill_(1.0), requires_grad=False)
-    # Get gradient w.r.t. interpolates
-    gradients = autograd.grad(
-        outputs=d_interpolates,
-        inputs=interpolates,
-        grad_outputs=fake,
-        create_graph=True,
-        retain_graph=True,
-        only_inputs=True,
-    )[0]
-    gradients = gradients.view(gradients.size(0), -1)
-    gradient_penalty = ((gradients.norm(2, dim=1) - 1) ** 2).mean()
-    return gradient_penalty
-</code></pre></div></div> <p>If you are interested in WGAN-gp, you can click <a href="https://github.com/sweetice/GAN-course-note/blob/master/GAN-code/wgan-gp.py">here</a> to read the core code.</p> <h2 id="example-2-in-any-network-">Example 2: In any network :</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    def compute_gradient_penalty(self, network, input):
-        # ref: https://github.com/eriklindernoren/PyTorch-GAN/blob/master/implementations/wgan_gp/wgan_gp.py
-        '''
-
-        :param input: state[index]
-        :param network: actor or critic
-        :return: gradient penalty
-        '''
-        input_ = torch.tensor(input).requires_grad_(True)
-        output = network(input_)
-        musk = torch.ones_like(output)
-        gradients = grad(output, input_, grad_outputs=musk,
-                         retain_graph=True, create_graph=True,
-                         allow_unused=True)[0]  # get tensor from tuple
-        gradients = gradients.view(-1, 1)
-        gradient_penalty = ((gradients.norm(2, dim=1) - 1) ** 2).mean()
-        return gradient_penalty
-</code></pre></div></div> <p>If you are interested in reinforcement learning and general aritificial intelligence, you can click <a href="https://github.com/sweetice/Deep-reinforcement-learning-with-pytorch">here</a>. :)</p> <p>Enjoy yourself :)</p>]]></content><author><name></name></author><category term="blog"/><category term="RL,"/><category term="Programming"/><summary type="html"><![CDATA[Computing the gradients of gradients with pytorch]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name></name></author><category term="blog"/><category term="Programming"/><summary type="html"><![CDATA[#　NVIDIA-SMI has failed because it couldn’t communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running]]></summary></entry></feed>
