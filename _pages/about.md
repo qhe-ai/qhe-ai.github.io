@@ -33,7 +33,7 @@ I am actively looking for research collaborations! For master/undergrad students
 I'm broadly interested in reinforcement learning, large language models, and machine learning. Currently, my research aims to i) understand the structural information of deep RL & LLMs and how to leverage it to improve agent performance in the wild (e.g., dealing with biased, noisy, or redundant data, or extrapolating to unseen tasks/environments), ii) develop controllable AI in both training and inference/adaptation; and iii) theory and real-world application of Human-AI alignment. And Yes we are developing these methods for RL and LLMs.
 
 
-<br><br>My working title of PhD thesis is "Towards Trustworthy Reinforcement Learning: Structural Analysis, Control Mechanisms, and Human-AI Alignment".
+<br><br>My working title of PhD thesis is "Towards Human-friendly Reinforcement Learning: Structural Analysis, Control Mechanisms, and Human-AI Alignment".
 
 
 
@@ -46,7 +46,7 @@ I'm broadly interested in reinforcement learning, large language models, and mac
 <summary>Contact information</summary>
 
 
-Email: qianghe97 AT gmail DOT com, Qiang DOT He AT ruhr-uni-bochum DOT de. Since I have left Tuebingen, my Tuebingen e-mail is not available. Please contact me via Gmail or Bochum mail. 
+Email: qianghe97 AT gmail DOT com, Qiang DOT He AT ruhr-uni-bochum DOT de. Since I have left Tuebingen, my Tuebingen e-mail is not available.
 <br>
 WeChat: pposac 
 
