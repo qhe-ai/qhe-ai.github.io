@@ -17,12 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
- I'm currently a ~~first~~ second-year PhD student at [Ruhr-University Bochum](https://www.ruhr-uni-bochum.de/en), having moved here in November 2023 with my supervisor [Setareh Maghsudi](https://etit.ruhr-uni-bochum.de/en/lts/team/prof-dr-ing-setareh-maghsudi/) from Tuebingen. I am fortunate to work with [Prof. Tianyi Zhou](https://tianyizhou.github.io/) at [University of Maryland](https://umd.edu/) and [Prof. Meng Fang](https://mengf1.github.io/) at [University of Liverpool](https://www.liverpool.ac.uk/). I eared my Master's degree in Theory and Method of Artificial Intelligence from [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/).
+ I'm currently a ~~first~~ ~~second~~ third-year PhD student at [Ruhr-University Bochum](https://www.ruhr-uni-bochum.de/en), having moved here in November 2023 with my supervisor [Setareh Maghsudi](https://etit.ruhr-uni-bochum.de/en/lts/team/prof-dr-ing-setareh-maghsudi/) from Tuebingen. I earned my Master's degree in Theory and Method of Artificial Intelligence from [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/).
 
 
-
-
-For masters student at RUB: We could provide master's thesis topic, which focuses on (deep) reinforcement learning or deep RL for large language models. Please contact Setareh and me if you are interested in our work.
 
 I am actively looking for research collaborations! For master/undergrad students looking for research experience or PhD students looking for collaborations, feel free to drop me an email.
 
@@ -33,11 +30,11 @@ I am actively looking for research collaborations! For master/undergrad students
 I'm broadly interested in reinforcement learning, large language models, and machine learning. Currently, my research aims to i) understand the structural information of deep RL & LLMs and how to leverage it to improve agent performance in the wild (e.g., dealing with biased, noisy, or redundant data, or extrapolating to unseen tasks/environments), ii) develop controllable AI in both training and inference/adaptation; and iii) theory and real-world application of Human-AI alignment. And Yes we are developing these methods for RL and LLMs.
 
 
-<br><br>My working title of PhD thesis is "Towards Human-friendly Reinforcement Learning: Structural Analysis, Control Mechanisms, and Human-AI Alignment".
+<br><br> The working title of my PhD thesis is "Towards Human-friendly Reinforcement Learning: Structural Analysis, Control Mechanisms, and Human-AI Alignment".
 
 
 
-<br><br>Our research is built upon empirical and theoretical analysis of the learning dynamics, utilizing tools from stochastic processes, functional analysis, algebra, optimization, information theory, and large language models. Our goal is to develop efficient, stable, trustworthy agents based on coevolution between humans and agents. 
+<br><br>Our research is built upon the empirical and theoretical analysis of the learning dynamics, utilizing tools from stochastic processes, functional analysis, algebra, optimization, information theory, and large language models. Our goal is to develop efficient, stable, trustworthy agents based on coevolution between humans and agents. 
 
 </details>
 
@@ -46,9 +43,9 @@ I'm broadly interested in reinforcement learning, large language models, and mac
 <summary>Contact information</summary>
 
 
-Email: qianghe97 AT gmail DOT com, Qiang DOT He AT ruhr-uni-bochum DOT de. Since I have left Tuebingen, my Tuebingen e-mail is not available.
+Email: qianghe97 AT gmail DOT com, Qiang DOT He AT ruhr-uni-bochum DOT de. Since I left Tuebingen, my Tuebingen e-mail is not available.
 <br>
-WeChat: pposac 
+WeChat ID: pposac 
 
 </details>
 
@@ -62,7 +59,7 @@ WeChat: pposac
 <summary>Professional Service</summary>
 <br>
 
-Reviewer for NeurIPS, DMLR, ICPR
+Reviewer for ICLR, NeurIPS, DMLR, ICPR
 
 <br>
 </details>
