@@ -27,7 +27,7 @@ I am actively looking for research collaborations! For master/undergrad students
 <summary>Research Interests: Reinforcement Learning, Human-AI Alignment, Large Language Models</summary>
 <br>
 
-I'm broadly interested in reinforcement learning, large language models, and machine learning. Currently, my research aims to i) understand the structural information of deep RL & LLMs and how to leverage it to improve agent performance in the wild (e.g., dealing with biased, noisy, or redundant data, or extrapolating to unseen tasks/environments), ii) develop controllable AI in both training and inference/adaptation; and iii) theory and real-world application of Human-AI alignment. And Yes we are developing these methods for RL and LLMs.
+I'm broadly interested in AI security, human-AI alignment, reinforcement learning, and large language models. Currently, my research aims to i) understand the structural information of deep RL & LLMs and how to leverage it to improve agent performance in the wild (e.g., dealing with biased, noisy, or redundant data, or extrapolating to unseen tasks/environments), ii) develop controllable AI in both training and inference/adaptation; and iii) theory and real-world application of Human-AI alignment. And Yes we are developing these methods for RL and LLMs.
 
 
 <br><br> The working title of my PhD thesis is "Towards Human-friendly Reinforcement Learning: Structural Analysis, Control Mechanisms, and Human-AI Alignment".
