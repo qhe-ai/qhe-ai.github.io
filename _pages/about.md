@@ -6,7 +6,7 @@ subtitle: <a href='#'>Bochum</a>, Germany.
 
 profile:
   align: right
-  image: hq.jpg
+  image: qh.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Bochum, Germany</p>
