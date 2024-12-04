@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
- I'm currently a ~~first~~ ~~second~~ third-year PhD student at [Ruhr-University Bochum](https://www.ruhr-uni-bochum.de/en), having moved here in November 2023 with my supervisor [Setareh Maghsudi](https://etit.ruhr-uni-bochum.de/en/lts/team/prof-dr-ing-setareh-maghsudi/) from Tuebingen. I earned my Master's degree in Theory and Method of Artificial Intelligence from [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/).
+ I'm currently a ~~first~~ ~~second~~ third-year PhD student at [Ruhr-University Bochum](https://www.ruhr-uni-bochum.de/en), having moved here in November 2023 with my supervisor [Prof. Dr. Setareh Maghsudi](https://etit.ruhr-uni-bochum.de/en/lts/team/prof-dr-ing-setareh-maghsudi/) from Tuebingen. I earned my Master's degree in Theory and Method of Artificial Intelligence from [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/).
 
 
 
@@ -43,7 +43,7 @@ I'm broadly interested in reinforcement learning, large language models, and mac
 <summary>Contact information</summary>
 
 
-Email: qianghe97 AT gmail DOT com, Qiang DOT He AT ruhr-uni-bochum DOT de. Since I left Tuebingen, my Tuebingen e-mail is not available.
+Email: qianghe97 AT gmail DOT com, Qiang DOT He AT ruhr-uni-bochum DOT de.
 <br>
 WeChat ID: pposac 
 
