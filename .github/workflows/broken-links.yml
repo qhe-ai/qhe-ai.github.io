@@ -38,7 +38,7 @@ on:
       - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
 
-Commenting out the job
+# Commenting out the job:
 jobs:
   link-checker:
     runs-on: ubuntu-latest
