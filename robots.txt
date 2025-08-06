@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sweetice.github.io/sitemap.xml
+Sitemap: https://qhe-ai.github.io/sitemap.xml
