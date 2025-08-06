@@ -38,7 +38,7 @@ I'm broadly interested in large language models, human-AI alignment, RLHF, and A
 <summary>Contact information</summary>
 
 
-Email: qianghe97 AT gmail DOT com, Qiang DOT He AT ruhr-uni-bochum DOT de.
+Email: qianghe97 AT gmail DOT com, Qiang DOT He AT rub DOT de.
 <br>
 WeChat ID: pposac 
 
@@ -54,7 +54,7 @@ WeChat ID: pposac
 <summary>Professional Service</summary>
 <br>
 
-Reviewer for ICLR, NeurIPS, DMLR, ICPR
+Reviewer for ICLR, NeurIPS, ICML, AAAI, DMLR, ICPR, 
 
 <br>
 </details>
