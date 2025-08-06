@@ -17,24 +17,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
- I'm currently a ~~first~~ ~~second~~ third-year PhD student at [Ruhr-University Bochum](https://www.ruhr-uni-bochum.de/en), having moved here in November 2023 with my supervisor [Prof. Dr. Setareh Maghsudi](https://etit.ruhr-uni-bochum.de/en/lts/team/prof-dr-ing-setareh-maghsudi/) from Tuebingen. I earned my Master's degree in Theory and Method of Artificial Intelligence from [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/).
+ I'm currently a ~~first~~ ~~second~~ ~~third~~ fourth-year PhD student at [Ruhr-University Bochum](https://www.ruhr-uni-bochum.de/en), supervised by [Prof. Dr. Setareh Maghsudi](https://etit.ruhr-uni-bochum.de/en/lts/team/prof-dr-ing-setareh-maghsudi/). I earned my Master's degree in Theory and Method of Artificial Intelligence from [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/) supervised by [Prof. Dr. Xinwen Hou](https://people.ucas.ac.cn/~xwhou).
 
 
-**I am currently on the industry job market. Please feel free to contact me if you have available positions.**
+**I am currently on the industry/academic job market. Please feel free to contact me if you have any available positions.**
 
 
  <details>
-<summary>Research Interests: Reinforcement Learning & RLHF, Human-AI Alignment, Large Language Models, Game AI</summary>
+<summary>Research Interests: Large Language Models, RLHF, Human-AI Alignment, Game AI, Reinforcement Learning</summary>
 <br>
 
-I'm broadly interested in large language models, human-AI alignment, reinforcement learning & RLHF, and AI security. Currently, my research aims to i) understand the structural information of deep RL & LLMs and how to leverage it to improve agent performance in the wild (e.g., dealing with biased, noisy, or redundant data, or extrapolating to unseen tasks/environments), ii) develop controllable AI in both training and inference/adaptation; and iii) theory and real-world application of Human-AI alignment. And Yes we are developing these methods for RL and LLMs.
+I'm broadly interested in large language models, human-AI alignment, RLHF, and AI security. Currently, my research aims to i) develop controllable AI in both training and inference/adaptation; ii) theory and real-world application of Human-AI alignment; and iii) understand the structural information of LLMs, RLHF & RL and how to leverage it to enable agent performance. And yes, we are developing these methods for RL and LLMs. Our [technology](https://openreview.net/pdf?id=eN1T7I7OpZ) powers the world's most popular fighting game.
 
 
-<br><br> The working title of my PhD thesis is "Towards Human-friendly Reinforcement Learning: Structural Analysis, Control Mechanisms, and Human-AI Alignment".
-
-
-
-<br><br>Our research is built upon the empirical and theoretical analysis of the learning dynamics, utilizing tools from stochastic processes, functional analysis, algebra, optimization, information theory, and large language models. Our goal is to develop efficient, stable, trustworthy agents based on coevolution between humans and agents. 
 
 </details>
 
