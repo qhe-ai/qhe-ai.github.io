@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
- I'm currently a ~~first~~ ~~second~~ ~~third~~ fourth-year PhD student at [Ruhr-University Bochum](https://www.ruhr-uni-bochum.de/en), supervised by [Prof. Dr. Setareh Maghsudi](https://etit.ruhr-uni-bochum.de/en/lts/team/prof-dr-ing-setareh-maghsudi/). I earned my Master's degree in Theory and Method of Artificial Intelligence from [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/) supervised by [Prof. Dr. Xinwen Hou](https://people.ucas.ac.cn/~xwhou).
+ I'm currently a ~~first~~ ~~second~~ ~~third~~ fourth-year PhD student at [Ruhr-University Bochum](https://www.ruhr-uni-bochum.de/en), supervised by [Prof. Dr. Setareh Maghsudi](https://etit.ruhr-uni-bochum.de/en/lts/team/prof-dr-ing-setareh-maghsudi/). I earned my Master's degree in Theory and Method of Artificial Intelligence from [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/), supervised by [Prof. Dr. Xinwen Hou](https://people.ucas.ac.cn/~xwhou).
 
 
 **I am currently on the industry/academic job market. Please feel free to contact me if you have any available positions.**
