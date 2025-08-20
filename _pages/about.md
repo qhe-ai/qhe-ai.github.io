@@ -27,8 +27,7 @@ social: false # includes social icons at the bottom of the page
 <summary>Research Interests: Large Language Models, RLHF, Human-AI Alignment, Game AI, Reinforcement Learning</summary>
 <br>
 
-I'm broadly interested in large language models, human-AI alignment, RLHF, and AI security. Currently, my research aims to i) develop controllable AI in both training and inference/adaptation; ii) theory and real-world application of Human-AI alignment; and iii) understand the structural information of LLMs, RLHF & RL and how to leverage it to enable agent performance. And yes, we are developing these methods for RL and LLMs. Our [technology](https://openreview.net/pdf?id=eN1T7I7OpZ) powers the world's most popular fighting game.
-
+I'm broadly interested in large language models, human-AI alignment, RLHF, and AI security. Currently, my research aims to i) develop controllable AI in both training and inference/adaptation; ii) theory and real-world application of Human-AI alignment; and iii) understand the structural information of LLMs, RLHF & RL and how to leverage it to enable agent performance. And yes, we are developing these methods for RL and LLMs.
 
 
 </details>
